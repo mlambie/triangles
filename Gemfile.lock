@@ -6,10 +6,12 @@ GEM
     gradient (0.5.1)
       color (~> 1.8)
       nokogiri (~> 1.6)
-    mini_magick (4.10.1)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    mini_magick (4.11.0)
+    mini_portile2 (2.5.0)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    racc (1.5.2)
     triangle_pattern (0.2.2)
       delaunator (~> 0.1.1)
       gradient
@@ -19,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   mini_magick
+  nokogiri (~> 1.11.0.rc4)
   triangle_pattern
 
 BUNDLED WITH
