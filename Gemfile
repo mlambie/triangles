@@ -1,5 +1,5 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 gem "mini_magick"
 gem "triangle_pattern"
-gem "nokogiri", "~> 1.13.5"
+gem "nokogiri", "~> 1.13.19"
