@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 gem "mini_magick"
 gem "triangle_pattern"
-gem "nokogiri", "~> 1.13.19"
+gem "nokogiri", "~> 1.13.10"
